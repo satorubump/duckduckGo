@@ -11,7 +11,9 @@ import SwiftUI
 struct duckduckGoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let orientationInfo = OrientationInfo()
+            let viewModel = CharactersListViewModel()
+            CharactersListView(viewModel: viewModel, orientationInfo: orientationInfo)
         }
     }
 }

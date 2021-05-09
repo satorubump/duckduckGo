@@ -8,11 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		D4139FAA2646DBFF000930CF /* duckduckGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FA92646DBFF000930CF /* duckduckGoApp.swift */; };
-		D4139FAC2646DBFF000930CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FAB2646DBFF000930CF /* ContentView.swift */; };
+		D4139FAC2646DBFF000930CF /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FAB2646DBFF000930CF /* CharactersListView.swift */; };
 		D4139FAE2646DC04000930CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4139FAD2646DC04000930CF /* Assets.xcassets */; };
 		D4139FB12646DC04000930CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4139FB02646DC04000930CF /* Preview Assets.xcassets */; };
 		D4139FBC2646DC04000930CF /* duckduckGoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FBB2646DC04000930CF /* duckduckGoTests.swift */; };
 		D4139FC72646DC04000930CF /* duckduckGoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FC62646DC04000930CF /* duckduckGoUITests.swift */; };
+		D4139FD62646EA12000930CF /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FAB2646DBFF000930CF /* CharactersListView.swift */; };
+		D4139FD72646EA12000930CF /* duckduckGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FA92646DBFF000930CF /* duckduckGoApp.swift */; };
+		D4139FDA2646EA12000930CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4139FB02646DC04000930CF /* Preview Assets.xcassets */; };
+		D4139FDB2646EA12000930CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4139FAD2646DC04000930CF /* Assets.xcassets */; };
+		D4139FE42646F6A1000930CF /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FE32646F6A1000930CF /* CharactersListViewModel.swift */; };
+		D4139FE62646FB67000930CF /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FE52646FB67000930CF /* CharacterDetailsView.swift */; };
+		D4139FE72646FB67000930CF /* CharacterDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FE52646FB67000930CF /* CharacterDetailsView.swift */; };
+		D4139FE82646FB7A000930CF /* CharactersListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FE32646F6A1000930CF /* CharactersListViewModel.swift */; };
+		D4139FEA2646FBE8000930CF /* CharactersAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FE92646FBE8000930CF /* CharactersAPIResponse.swift */; };
+		D4139FEB2646FBE8000930CF /* CharactersAPIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FE92646FBE8000930CF /* CharactersAPIResponse.swift */; };
+		D4139FED2646FCD0000930CF /* CharactersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FEC2646FCD0000930CF /* CharactersAPI.swift */; };
+		D4139FEE2646FCD0000930CF /* CharactersAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FEC2646FCD0000930CF /* CharactersAPI.swift */; };
+		D4139FF02646FD45000930CF /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FEF2646FD45000930CF /* ImageLoader.swift */; };
+		D4139FF12646FD45000930CF /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FEF2646FD45000930CF /* ImageLoader.swift */; };
+		D4139FF32646FD88000930CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FF22646FD88000930CF /* Constants.swift */; };
+		D4139FF42646FD88000930CF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FF22646FD88000930CF /* Constants.swift */; };
+		D4139FF626471AEB000930CF /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FF526471AEB000930CF /* URLImage.swift */; };
+		D4139FF726471AEB000930CF /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4139FF526471AEB000930CF /* URLImage.swift */; };
+		D413A00E26473990000930CF /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413A00D26473990000930CF /* ExtensionString.swift */; };
+		D413A00F26473990000930CF /* ExtensionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D413A00D26473990000930CF /* ExtensionString.swift */; };
+		D434F5A82647F0BD00251D6D /* OrientationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F5A72647F0BD00251D6D /* OrientationInfo.swift */; };
+		D434F5A92648182300251D6D /* OrientationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D434F5A72647F0BD00251D6D /* OrientationInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D4139FA62646DBFF000930CF /* duckduckGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = duckduckGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4139FA62646DBFF000930CF /* simpsonsChara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpsonsChara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4139FA92646DBFF000930CF /* duckduckGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duckduckGoApp.swift; sourceTree = "<group>"; };
-		D4139FAB2646DBFF000930CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4139FAB2646DBFF000930CF /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
 		D4139FAD2646DC04000930CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4139FB02646DC04000930CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4139FB22646DC04000930CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +67,18 @@
 		D4139FC22646DC04000930CF /* duckduckGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = duckduckGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4139FC62646DC04000930CF /* duckduckGoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = duckduckGoUITests.swift; sourceTree = "<group>"; };
 		D4139FC82646DC04000930CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4139FDF2646EA12000930CF /* theWireChara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = theWireChara.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4139FE02646EA12000930CF /* duckduckGo copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "duckduckGo copy-Info.plist"; path = "/Users/satoruishii/Documents/Dev/TakeHome/duckduckGo/duckduckGo copy-Info.plist"; sourceTree = "<absolute>"; };
+		D4139FE32646F6A1000930CF /* CharactersListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListViewModel.swift; sourceTree = "<group>"; };
+		D4139FE52646FB67000930CF /* CharacterDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsView.swift; sourceTree = "<group>"; };
+		D4139FE92646FBE8000930CF /* CharactersAPIResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersAPIResponse.swift; sourceTree = "<group>"; };
+		D4139FEC2646FCD0000930CF /* CharactersAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersAPI.swift; sourceTree = "<group>"; };
+		D4139FEF2646FD45000930CF /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		D4139FF22646FD88000930CF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D4139FF526471AEB000930CF /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		D413A00C26472B9D000930CF /* simpsonsChara copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "simpsonsChara copy-Info.plist"; path = "/Users/satoruishii/Documents/Dev/TakeHome/duckduckGo/simpsonsChara copy-Info.plist"; sourceTree = "<absolute>"; };
+		D413A00D26473990000930CF /* ExtensionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionString.swift; sourceTree = "<group>"; };
+		D434F5A72647F0BD00251D6D /* OrientationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +103,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4139FD82646EA12000930CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,15 +120,18 @@
 				D4139FBA2646DC04000930CF /* duckduckGoTests */,
 				D4139FC52646DC04000930CF /* duckduckGoUITests */,
 				D4139FA72646DBFF000930CF /* Products */,
+				D4139FE02646EA12000930CF /* duckduckGo copy-Info.plist */,
+				D413A00C26472B9D000930CF /* simpsonsChara copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
 		D4139FA72646DBFF000930CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D4139FA62646DBFF000930CF /* duckduckGo.app */,
+				D4139FA62646DBFF000930CF /* simpsonsChara.app */,
 				D4139FB72646DC04000930CF /* duckduckGoTests.xctest */,
 				D4139FC22646DC04000930CF /* duckduckGoUITests.xctest */,
+				D4139FDF2646EA12000930CF /* theWireChara.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,7 +140,16 @@
 			isa = PBXGroup;
 			children = (
 				D4139FA92646DBFF000930CF /* duckduckGoApp.swift */,
-				D4139FAB2646DBFF000930CF /* ContentView.swift */,
+				D4139FAB2646DBFF000930CF /* CharactersListView.swift */,
+				D4139FE52646FB67000930CF /* CharacterDetailsView.swift */,
+				D4139FF526471AEB000930CF /* URLImage.swift */,
+				D4139FE32646F6A1000930CF /* CharactersListViewModel.swift */,
+				D4139FE92646FBE8000930CF /* CharactersAPIResponse.swift */,
+				D4139FEC2646FCD0000930CF /* CharactersAPI.swift */,
+				D4139FEF2646FD45000930CF /* ImageLoader.swift */,
+				D4139FF22646FD88000930CF /* Constants.swift */,
+				D413A00D26473990000930CF /* ExtensionString.swift */,
+				D434F5A72647F0BD00251D6D /* OrientationInfo.swift */,
 				D4139FAD2646DC04000930CF /* Assets.xcassets */,
 				D4139FB22646DC04000930CF /* Info.plist */,
 				D4139FAF2646DC04000930CF /* Preview Content */,
@@ -133,9 +186,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D4139FA52646DBFF000930CF /* duckduckGo */ = {
+		D4139FA52646DBFF000930CF /* simpsonsChara */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D4139FCB2646DC04000930CF /* Build configuration list for PBXNativeTarget "duckduckGo" */;
+			buildConfigurationList = D4139FCB2646DC04000930CF /* Build configuration list for PBXNativeTarget "simpsonsChara" */;
 			buildPhases = (
 				D4139FA22646DBFF000930CF /* Sources */,
 				D4139FA32646DBFF000930CF /* Frameworks */,
@@ -145,9 +198,9 @@
 			);
 			dependencies = (
 			);
-			name = duckduckGo;
+			name = simpsonsChara;
 			productName = duckduckGo;
-			productReference = D4139FA62646DBFF000930CF /* duckduckGo.app */;
+			productReference = D4139FA62646DBFF000930CF /* simpsonsChara.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D4139FB62646DC04000930CF /* duckduckGoTests */ = {
@@ -186,6 +239,23 @@
 			productReference = D4139FC22646DC04000930CF /* duckduckGoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		D4139FD42646EA12000930CF /* theWireChara */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4139FDC2646EA12000930CF /* Build configuration list for PBXNativeTarget "theWireChara" */;
+			buildPhases = (
+				D4139FD52646EA12000930CF /* Sources */,
+				D4139FD82646EA12000930CF /* Frameworks */,
+				D4139FD92646EA12000930CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = theWireChara;
+			productName = duckduckGo;
+			productReference = D4139FDF2646EA12000930CF /* theWireChara.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -221,7 +291,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D4139FA52646DBFF000930CF /* duckduckGo */,
+				D4139FA52646DBFF000930CF /* simpsonsChara */,
+				D4139FD42646EA12000930CF /* theWireChara */,
 				D4139FB62646DC04000930CF /* duckduckGoTests */,
 				D4139FC12646DC04000930CF /* duckduckGoUITests */,
 			);
@@ -252,6 +323,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4139FD92646EA12000930CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4139FDA2646EA12000930CF /* Preview Assets.xcassets in Resources */,
+				D4139FDB2646EA12000930CF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -259,8 +339,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4139FAC2646DBFF000930CF /* ContentView.swift in Sources */,
+				D4139FF02646FD45000930CF /* ImageLoader.swift in Sources */,
+				D4139FF626471AEB000930CF /* URLImage.swift in Sources */,
+				D4139FED2646FCD0000930CF /* CharactersAPI.swift in Sources */,
+				D4139FE62646FB67000930CF /* CharacterDetailsView.swift in Sources */,
+				D4139FE42646F6A1000930CF /* CharactersListViewModel.swift in Sources */,
+				D4139FAC2646DBFF000930CF /* CharactersListView.swift in Sources */,
+				D4139FF32646FD88000930CF /* Constants.swift in Sources */,
+				D434F5A82647F0BD00251D6D /* OrientationInfo.swift in Sources */,
 				D4139FAA2646DBFF000930CF /* duckduckGoApp.swift in Sources */,
+				D4139FEA2646FBE8000930CF /* CharactersAPIResponse.swift in Sources */,
+				D413A00E26473990000930CF /* ExtensionString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,17 +369,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D4139FD52646EA12000930CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D434F5A92648182300251D6D /* OrientationInfo.swift in Sources */,
+				D4139FF12646FD45000930CF /* ImageLoader.swift in Sources */,
+				D4139FF726471AEB000930CF /* URLImage.swift in Sources */,
+				D4139FEE2646FCD0000930CF /* CharactersAPI.swift in Sources */,
+				D4139FE82646FB7A000930CF /* CharactersListViewModel.swift in Sources */,
+				D4139FD62646EA12000930CF /* CharactersListView.swift in Sources */,
+				D4139FD72646EA12000930CF /* duckduckGoApp.swift in Sources */,
+				D4139FF42646FD88000930CF /* Constants.swift in Sources */,
+				D4139FE72646FB67000930CF /* CharacterDetailsView.swift in Sources */,
+				D4139FEB2646FBE8000930CF /* CharactersAPIResponse.swift in Sources */,
+				D413A00F26473990000930CF /* ExtensionString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		D4139FB92646DC04000930CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D4139FA52646DBFF000930CF /* duckduckGo */;
+			target = D4139FA52646DBFF000930CF /* simpsonsChara */;
 			targetProxy = D4139FB82646DC04000930CF /* PBXContainerItemProxy */;
 		};
 		D4139FC42646DC04000930CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D4139FA52646DBFF000930CF /* duckduckGo */;
+			target = D4139FA52646DBFF000930CF /* simpsonsChara */;
 			targetProxy = D4139FC32646DC04000930CF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -420,6 +527,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"duckduckGo/Preview Content\"";
 				DEVELOPMENT_TEAM = 9CXC697Y8U;
+				DISPLAY_NAME = "Simpsons Character Viewer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = duckduckGo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -427,7 +535,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bump.net.duckduckGo;
+				OTHER_SWIFT_FLAGS = "-D simpsonsChara";
+				PRODUCT_BUNDLE_IDENTIFIER = bump.net.simpsonsChara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,6 +551,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"duckduckGo/Preview Content\"";
 				DEVELOPMENT_TEAM = 9CXC697Y8U;
+				DISPLAY_NAME = "Simpsons Character Viewer";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = duckduckGo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -449,7 +559,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = bump.net.duckduckGo;
+				OTHER_SWIFT_FLAGS = "-D simpsonsChara";
+				PRODUCT_BUNDLE_IDENTIFIER = bump.net.simpsonsChara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -540,6 +651,54 @@
 			};
 			name = Release;
 		};
+		D4139FDD2646EA12000930CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"duckduckGo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CXC697Y8U;
+				DISPLAY_NAME = "The Wire Character Viewer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "duckduckGo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D theWireChara";
+				PRODUCT_BUNDLE_IDENTIFIER = bump.net.theWireChara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4139FDE2646EA12000930CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"duckduckGo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9CXC697Y8U;
+				DISPLAY_NAME = "The Wire Character Viewer";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "duckduckGo copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-D theWireChara";
+				PRODUCT_BUNDLE_IDENTIFIER = bump.net.theWireChara;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -552,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D4139FCB2646DC04000930CF /* Build configuration list for PBXNativeTarget "duckduckGo" */ = {
+		D4139FCB2646DC04000930CF /* Build configuration list for PBXNativeTarget "simpsonsChara" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D4139FCC2646DC04000930CF /* Debug */,
@@ -575,6 +734,15 @@
 			buildConfigurations = (
 				D4139FD22646DC04000930CF /* Debug */,
 				D4139FD32646DC04000930CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4139FDC2646EA12000930CF /* Build configuration list for PBXNativeTarget "theWireChara" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4139FDD2646EA12000930CF /* Debug */,
+				D4139FDE2646EA12000930CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
