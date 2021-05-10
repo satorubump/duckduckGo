@@ -4,7 +4,7 @@
 
 ![CharactersList](https://github.com/satorubump/duckduckGo/blob/master/images/charactersList.png "CharactersList")
 
-![SimpsonsPortrait](/images/simpsonsPortrait.png "SimpsonsPortlait")
+![SimpsonsPortrait](images/simpsonsPortrait.png "SimpsonsPortlait")
 
 ![TheWireiPhone](/images/theWireiPhone.png "TheWireiPhone")
 
