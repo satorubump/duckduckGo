@@ -720,7 +720,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-D simpsonsChara";
-				PRODUCT_BUNDLE_IDENTIFIER = bump.net.simpsonsChara;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsvIewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -744,7 +744,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-D simpsonsChara";
-				PRODUCT_BUNDLE_IDENTIFIER = bump.net.simpsonsChara;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.simpsonsvIewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -768,7 +768,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-D theWireChara";
-				PRODUCT_BUNDLE_IDENTIFIER = bump.net.theWireChara;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -792,7 +792,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-D theWireChara";
-				PRODUCT_BUNDLE_IDENTIFIER = bump.net.theWireChara;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.wireviewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

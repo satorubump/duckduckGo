@@ -47,8 +47,8 @@ struct Constants {
         static let LandscapeIconSizeRatio : CGFloat = 0.65
     #elseif theWireChara
         static let ImageAspectRatio : CGFloat = 1.67
-        static let PortraitIconSizeRatio : CGFloat = 1.2
-        static let LandscapeIconSizeRatio : CGFloat = 0.4
+        static let PortraitIconSizeRatio : CGFloat = 1.67
+        static let LandscapeIconSizeRatio : CGFloat = 0.5
     #endif
 
 }
