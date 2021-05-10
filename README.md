@@ -1,5 +1,7 @@
 # duckduckGo
 
+## Pages
+
 ![CharactersList](images/charactersList.png "CharactersList")
 
 ![SimpsonsPortrait](images/simpsonsPortrait.png "SimpsonsPortlait")
