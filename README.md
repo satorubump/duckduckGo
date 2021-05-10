@@ -1,7 +1,5 @@
 # duckduckGo
 
-## View
-
 ![CharactersList](images/CharactersList.png "CharactersList")
 
 ![SimpsonsPortrait](images/SimpsonsPortrait.png "SimpsonsPortlait")
