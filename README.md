@@ -2,17 +2,17 @@
 
 ## View
 
-![CharactersList](images/charactersList.png "CharactersList")
+![CharactersList](/images/charactersList.png "CharactersList")
 
-![SimpsonsPortrait](images/simpsonsPortrait.png "SimpsonsPortlait")
+![SimpsonsPortrait](/images/simpsonsPortrait.png "SimpsonsPortlait")
 
-![TheWireiPhone](images/theWireiPhone.png "TheWireiPhone")
+![TheWireiPhone](/images/theWireiPhone.png "TheWireiPhone")
 
-![SimpsonsLandscape](images/simpsonsLandscape.png "SimpsonsLandscape")
+![SimpsonsLandscape](/images/simpsonsLandscape.png "SimpsonsLandscape")
 
-![TheWireiPad](images/theWireiPad.png "TheWireiPad")
+![TheWireiPad](/images/theWireiPad.png "TheWireiPad")
 
-![SimpsonsiPad](images/simpsonsiPad.png "SimpsonsiPad")
+![SimpsonsiPad](/images/simpsonsiPad.png "SimpsonsiPad")
 
 
 ## Implementation
