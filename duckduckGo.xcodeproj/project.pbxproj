@@ -179,17 +179,12 @@
 		D4139FA82646DBFF000930CF /* duckduckGo */ = {
 			isa = PBXGroup;
 			children = (
+				D419880C26492E19000CCD7A /* View */,
+				D419880D26492E3E000CCD7A /* View Model */,
+				D419880E26492E62000CCD7A /* Model */,
+				D419880F26492E71000CCD7A /* API */,
+				D419880B26492D40000CCD7A /* Helpers */,
 				D4139FA92646DBFF000930CF /* duckduckGoApp.swift */,
-				D4139FAB2646DBFF000930CF /* CharactersListView.swift */,
-				D4139FE52646FB67000930CF /* CharacterDetailsView.swift */,
-				D4139FF526471AEB000930CF /* URLImage.swift */,
-				D4139FE32646F6A1000930CF /* CharactersListViewModel.swift */,
-				D4139FE92646FBE8000930CF /* CharactersAPIResponse.swift */,
-				D4139FEC2646FCD0000930CF /* CharactersAPI.swift */,
-				D4139FEF2646FD45000930CF /* ImageLoader.swift */,
-				D4139FF22646FD88000930CF /* Constants.swift */,
-				D413A00D26473990000930CF /* ExtensionString.swift */,
-				D434F5A72647F0BD00251D6D /* OrientationInfo.swift */,
 				D4139FAD2646DC04000930CF /* Assets.xcassets */,
 				D4139FB22646DC04000930CF /* Info.plist */,
 				D4139FAF2646DC04000930CF /* Preview Content */,
@@ -230,6 +225,51 @@
 				D4198805264929A8000CCD7A /* Info.plist */,
 			);
 			path = theWireCharaUITests;
+			sourceTree = "<group>";
+		};
+		D419880B26492D40000CCD7A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D413A00D26473990000930CF /* ExtensionString.swift */,
+				D4139FF22646FD88000930CF /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D419880C26492E19000CCD7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D4139FAB2646DBFF000930CF /* CharactersListView.swift */,
+				D4139FE52646FB67000930CF /* CharacterDetailsView.swift */,
+				D4139FF526471AEB000930CF /* URLImage.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D419880D26492E3E000CCD7A /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4139FE32646F6A1000930CF /* CharactersListViewModel.swift */,
+				D434F5A72647F0BD00251D6D /* OrientationInfo.swift */,
+				D4139FEF2646FD45000930CF /* ImageLoader.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		D419880E26492E62000CCD7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D4139FE92646FBE8000930CF /* CharactersAPIResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D419880F26492E71000CCD7A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				D4139FEC2646FCD0000930CF /* CharactersAPI.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 		D479723F26490BF200FC4B0A /* simpsonsCharaUITests */ = {
