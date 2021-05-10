@@ -1,16 +1,16 @@
 # duckduckGo
 
-![Characters List](images/charactersList.png "Characters List")
+![CharactersList](images/charactersList.png "Characters List")
 
-![Simpsons Portrait](images/simpsonsPortrait.png "Simpsons Portlait")
+![SimpsonsPortrait](images/simpsonsPortrait.png "Simpsons Portlait")
 
-![TheWire iPhone](images/theWireiPhone.png "TheWire iPhone")
+![TheWireiPhone](images/theWireiPhone.png "TheWire iPhone")
 
-![Simpsons Landscape](images/simpsonsLandscape.png "Simpsons Landscape")
+![SimpsonsLandscape](images/simpsonsLandscape.png "Simpsons Landscape")
 
-![The Wire iPad](images/theWireiPad.png "The Wire iPad")
+![TheWireiPad](images/theWireiPad.png "The Wire iPad")
 
-![Simpsons iPad](images/simpsonsiPad.png "Simpsons iPad")
+![SimpsonsiPad](images/simpsonsiPad.png "Simpsons iPad")
 
 
 ## Implementation
