@@ -2,7 +2,7 @@
 
 ## View
 
-![CharactersList](/images/charactersList.png "CharactersList")
+![CharactersList](https://github.com/satorubump/duckduckGo/blob/master/images/charactersList.png "CharactersList")
 
 ![SimpsonsPortrait](/images/simpsonsPortrait.png "SimpsonsPortlait")
 
