@@ -1,6 +1,6 @@
 # duckduckGo
 
-## Pages
+## View
 
 ![CharactersList](images/charactersList.png "CharactersList")
 
