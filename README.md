@@ -2,15 +2,10 @@
 
 ## View
 
-![CharactersList](https://github.com/satorubump/duckduckGo/blob/master/images/charactersList.png "CharactersList")
 
 ![SimpsonsPortrait](images/simpsonsPortrait.png "SimpsonsPortlait")
 
 ![TheWireiPhone](/images/theWireiPhone.png "TheWireiPhone")
-
-![SimpsonsLandscape](/images/simpsonsLandscape.png "SimpsonsLandscape")
-
-![TheWireiPad](/images/theWireiPad.png "TheWireiPad")
 
 ![SimpsonsiPad](/images/simpsonsiPad.png "SimpsonsiPad")
 
