@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D41987F226492989000CCD7A"
+               BuildableName = "theWireCharaTests.xctest"
+               BlueprintName = "theWireCharaTests"
+               ReferencedContainer = "container:duckduckGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D4198800264929A7000CCD7A"
+               BuildableName = "theWireCharaUITests.xctest"
+               BlueprintName = "theWireCharaUITests"
+               ReferencedContainer = "container:duckduckGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

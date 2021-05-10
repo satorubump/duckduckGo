@@ -75,16 +75,19 @@ private extension CharacterDetailsView {
     var characterIconSection : some View {
         URLImage(url: character!.icon.url.getIconUrl()!, height: orientationInfo.iconHeight * Constants.LandscapeIconSizeRatio)
             .padding(.top, 20)
+            .accessibilityIdentifier("iconView")
     }
     /// Character Name Section
     var characterNameSection : some View {
         Text(character!.text.getCharacterName())
             .font(.system(size: Constants.TitleFont))
             .frame(height: 30)
+            .accessibilityIdentifier("name")
     }
     /// Character Description Section
     var characterDescriptionSection : some View {
         Text(character!.text.getDescription())
+        .accessibilityIdentifier("description")
         .font(.system(size: Constants.BodyFont))
         .foregroundColor(Color.gray)
             .padding(.leading, 10)

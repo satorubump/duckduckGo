@@ -48,6 +48,36 @@
                ReferencedContainer = "container:duckduckGo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D479723D26490BF200FC4B0A"
+               BuildableName = "simpsonsCharaUITests.xctest"
+               BlueprintName = "simpsonsCharaUITests"
+               ReferencedContainer = "container:duckduckGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D41987D62649148D000CCD7A"
+               BuildableName = "duckduckGoUITest.xctest"
+               BlueprintName = "duckduckGoUITest"
+               ReferencedContainer = "container:duckduckGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D41987E4264915BD000CCD7A"
+               BuildableName = "simpsonsCharaTests.xctest"
+               BlueprintName = "simpsonsCharaTests"
+               ReferencedContainer = "container:duckduckGo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

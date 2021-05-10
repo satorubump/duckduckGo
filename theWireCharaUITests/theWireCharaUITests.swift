@@ -1,13 +1,17 @@
 //
-//  duckduckGoUITests.swift
-//  duckduckGoUITests
+//  theWireCharaUITests.swift
+//  theWireCharaUITests
 //
-//  Created by Satoru Ishii on 5/8/21.
+//  Created by Satoru Ishii on 5/10/21.
 //
 
 import XCTest
 
-class duckduckGoUITests: XCTestCase {
+///
+///  The Wire Viewer UI Test
+///
+class theWireCharaUITests: XCTestCase {
+    var app: XCUIApplication!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -16,12 +20,22 @@ class duckduckGoUITests: XCTestCase {
         continueAfterFailure = false
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        continueAfterFailure = false
+        app = XCUIApplication()
+        app.launch()
     }
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
+    ///
+    /// Test the Navigation View Display
+    ///
+    func testList() throws {
+        XCTAssertTrue(app.navigationBars["The Wire Characters"].exists)
+    }
+    
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()

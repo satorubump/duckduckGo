@@ -94,6 +94,7 @@ private extension CharactersListView {
                                     .environmentObject(self.orientationInfo)) {
                         HStack(alignment: .top) {
                             Text(character.text.getCharacterName())
+                                .accessibility(identifier: "character name")
                             .font(.system(size: Constants.ListFont))
                             .foregroundColor(Color.gray)
                         }
@@ -101,6 +102,7 @@ private extension CharactersListView {
                 }
             }
         }
+        .accessibility(identifier: "characersList")
     }
 }
 
